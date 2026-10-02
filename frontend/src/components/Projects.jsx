@@ -107,7 +107,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Siatka prac */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {trabajosFiltrados.map((t, index) => (
             <div 
