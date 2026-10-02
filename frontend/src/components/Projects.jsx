@@ -91,7 +91,6 @@ export default function Projects() {
           </p>
         </div>
 
-        {/* Przyciski filtrowania */}
         <div className="flex flex-wrap justify-center gap-2 mb-10">
           {categorias.map((cat) => (
             <button

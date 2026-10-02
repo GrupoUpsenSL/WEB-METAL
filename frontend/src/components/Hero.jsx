@@ -5,7 +5,6 @@ export default function Hero() {
     <section id="inicio" className="bg-[#181614] text-white pt-8 pb-16 px-4">
       <div className="max-w-6xl mx-auto space-y-8">
         
-        {/* Banner główny */}
         <div className="rounded-xl overflow-hidden shadow-2xl border-2 border-orange-600/40">
           <img 
             src={banner} 
@@ -14,7 +13,6 @@ export default function Hero() {
           />
         </div>
 
-        {/* Tekst wprowadzający pod bannerem */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
             Especialistas en <span className="text-orange-500">Pérgolas de Hierro</span> y <span className="text-yellow-400">Cubiertas</span>
